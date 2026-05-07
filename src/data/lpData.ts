@@ -1,11 +1,12 @@
 import type { Color, Industry, LPItem, Taste } from '../types/lp';
 
-export const INDUSTRIES: Industry[] = ['Beauty', 'Food'];
+export const INDUSTRIES: Industry[] = ['Beauty', 'Food', 'Stay'];
 export const TASTES: Taste[] = ['Pop', 'Simple', 'Luxury', 'Trust'];
 
 export const INDUSTRY_LABELS: Record<Industry, string> = {
   Beauty: '美容',
   Food: '飲食',
+  Stay: '宿泊',
 };
 
 export const COLOR_LABELS: Record<Color, string> = {
@@ -139,5 +140,15 @@ export const lpData: LPItem[] = [
       industry: 'Beauty',
     },
     description: 'メンズエステLP',
+  },
+  {
+    id: 'lp-012',
+    title: '静寂庵',
+    url: 'https://yadodemo.pages.dev/',
+    thumbnail: thumb('lp-012'),
+    categories: {
+      industry: 'Stay',
+    },
+    description: '宿泊施設',
   },
 ];
