@@ -95,7 +95,7 @@ export const lpData: LPItem[] = [
   {
     id: 'lp-007',
     title: 'イタリアンレストラン',
-    url: 'https://italian-restaurant.pages.dev/',
+    url: 'https://italian-demo01-lp.pages.dev/',
     thumbnail: thumb('lp-007'),
     categories: {
       industry: 'Food',
