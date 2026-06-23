@@ -172,4 +172,14 @@ export const lpData: LPItem[] = [
     },
     description: '宿泊施設LP',
   },
+  {
+    id: 'lp-015',
+    title: 'DINER CAFE',
+    url: 'https://diner-cafe.pages.dev/',
+    thumbnail: thumb('lp-015'),
+    categories: {
+      industry: 'Food',
+    },
+    description: 'カフェLP',
+  },
 ];
