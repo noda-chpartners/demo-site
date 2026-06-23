@@ -162,4 +162,14 @@ export const lpData: LPItem[] = [
     },
     description: '雀荘LP',
   },
+  {
+    id: 'lp-014',
+    title: 'Auberge Märchen',
+    url: 'https://demo-pension.pages.dev/',
+    thumbnail: thumb('lp-014'),
+    categories: {
+      industry: 'Stay',
+    },
+    description: '宿泊施設LP',
+  },
 ];
